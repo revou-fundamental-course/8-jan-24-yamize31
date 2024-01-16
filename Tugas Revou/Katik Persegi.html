@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Katik Persegi</title>
+    <script src="Script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Katik Kalkulator Matematik</h1>
+        <h2>Welcome to kalkulator Luas dan Keliling Persegi</h2>
+        <p>Web ini di gunakan untuk menghitung luas dan keliling persegi untuk tugas mini project Revou</p>
+    </header>
+    <section>
+        <h4>Persegi</p>
+        <h3>P. Panjang</p>
+        <h1>Luas Persegi</h1>
+    </section>
+    <article class="persegi">
+        <img src="persegi.jpg" alt="Square">
+    </article>
+    <p>Rumus Luas Persegi yaitu :</p>
+    <h4>L = S x S</h4>
+    <ul>
+        <li>Di Mana:</li>
+        <li>L= Luas</li>
+        <li>S= Sisi</li>
+    </ul>
+    <hr>
+    <div class="inputSection">
+        <label for="squareSide" id="lblsquareSide">Hitung Luas Pesegi</label>
+        <input type="number" id="squareSide" placeholder="Luas Sisi ">
+    </div>
+    <div class="buttons">
+        <button class="countButton" onclick="calculatePerimeter()">Hitung Keliling</button>
+        </div>
+        <button id="resetButton" class="resetButton">Reset</button>
+    </div>
+    
+
+    <div id="result"></div>
+</body>
+</html>
